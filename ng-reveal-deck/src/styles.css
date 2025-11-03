@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+/* Reveal core + theme */
+@import 'reveal.js/dist/reveal.css';
+@import 'reveal.js/dist/theme/dracula.css';          /* change theme later if you like */
+
+/* Syntax highlighting theme for code blocks */
+@import 'reveal.js/plugin/highlight/monokai.css';
+
+/* Make the deck fill the screen comfortably */
+html, body, app-root { height: 100%; }
+.reveal { height: 100%; }

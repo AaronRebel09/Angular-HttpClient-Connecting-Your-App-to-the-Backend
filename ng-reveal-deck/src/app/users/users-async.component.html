@@ -1,0 +1,11 @@
+<h3>Users (async pipe)</h3>
+
+@if (users$ | async; as users) {
+  <ul>
+    @for (u of users; track u.id) {
+      <li>{{ u.name }} — {{ u.email }}</li>
+    }
+  </ul>
+} @else {
+  <p>Loading...</p>
+}
