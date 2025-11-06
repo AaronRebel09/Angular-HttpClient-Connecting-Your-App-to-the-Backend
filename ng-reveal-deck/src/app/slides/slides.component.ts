@@ -14,8 +14,8 @@ import Highlight from 'reveal.js/plugin/highlight/highlight.esm.js';
       <!-- ✅ Minimal external Markdown -->
       <section data-markdown="/assets/slides.md"></section>
 
-      <section data-markdown="/assets/slides/02-http-requests.md"></section>
-      <section data-markdown="/assets/slides/03-observables.md"></section>
+      <section data-markdown="/assets/slides/02-observables.md"></section>
+      <section data-markdown="/assets/slides/03-rxjs.md"></section>      
       <section data-markdown="/assets/slides/04-example.md"></section>
 
 
